@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>gov.va.isaac.isaac-pa</groupId>
-		<artifactId>isaac-pa-parent</artifactId>
-		<version>1.0-Sprint_17-SNAPSHOT</version>
+		<groupId>test</groupId>
+		<artifactId>test-parent</artifactId>
+		<version>1.0-Sprint_01-SNAPSHOT</version>
 	</parent>
-	<groupId>gov.va.isaac.isaac-pa.modules</groupId>
+	<groupId>test.modules</groupId>
 	<artifactId>app</artifactId>
 	<packaging>pom</packaging>
 
@@ -19,7 +19,7 @@
 
 		<!-- Configuration module. -->
 		<dependency>
-			<groupId>gov.va.isaac.isaac-pa.modules</groupId>
+			<groupId>test.modules</groupId>
 			<artifactId>config</artifactId>
 			<version>${project.parent.version}</version>
 		</dependency>
