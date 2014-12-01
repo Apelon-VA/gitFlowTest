@@ -58,6 +58,8 @@
 				<version>1.0-m4.3</version>
 				<configuration>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
+					<pushReleases>true</pushReleases>
+					<scmCommentPrefix>[jgitflow-plugin]</scmCommentPrefix>
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
 						<developBranchName>develop</developBranchName>
