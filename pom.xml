@@ -4,7 +4,7 @@
 
 	<groupId>test</groupId>
 	<artifactId>test-parent</artifactId>
-	<version>1.0-Sprint_08</version>
+	<version>1.0-Sprint_09</version>
 	<packaging>pom</packaging>
 
 	<name>ISAAC Project Assembly Parent</name>
@@ -59,7 +59,7 @@
 				<configuration>
 					<pushReleases>true</pushReleases>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
-					<scmCommentPrefix>[jgitflow-plugin]</scmCommentPrefix>
+					<scmCommentPrefix>[jgitflow-plugin] </scmCommentPrefix>
 					<enableSshAgent>true</enableSshAgent>
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
