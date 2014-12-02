@@ -4,7 +4,7 @@
 
 	<groupId>test</groupId>
 	<artifactId>test-parent</artifactId>
-	<version>1.0-Sprint_05</version>
+	<version>1.0-Sprint_06</version>
 	<packaging>pom</packaging>
 
 	<name>ISAAC Project Assembly Parent</name>
@@ -57,6 +57,7 @@
 				<artifactId>jgitflow-maven-plugin</artifactId>
 				<version>1.0-m4.3</version>
 				<configuration>
+					<squash>true</squash>
 					<pushReleases>true</pushReleases>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<scmCommentPrefix>[jgitflow-plugin]</scmCommentPrefix>
