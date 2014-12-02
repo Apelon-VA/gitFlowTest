@@ -32,9 +32,6 @@
 	</properties>
 
 	<scm>
-		<!--connection>scm:git:git@github.com:Apelon-VA/gitFlowTest.git</connection>
-		<developerConnection>scm:git:git@github.com:Apelon-VA/gitFlowTest.git</developerConnection>
-		<tag>master</tag-->
 		<url>https://github.com/Apelon-VA/gitFlowTest</url>
 	</scm>
 
@@ -60,6 +57,7 @@
 					<pushReleases>true</pushReleases>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<scmCommentPrefix>[jgitflow-plugin]</scmCommentPrefix>
+					<enableSshAgent>true</enableSshAgent>
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
 						<developBranchName>develop</developBranchName>
