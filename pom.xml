@@ -4,7 +4,7 @@
 
 	<groupId>test</groupId>
 	<artifactId>test-parent</artifactId>
-	<version>Sprint_12-SNAPSHOT</version>
+	<version>Sprint_14-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>ISAAC Project Assembly Parent</name>
