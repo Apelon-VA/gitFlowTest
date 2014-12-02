@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>test</groupId>
 		<artifactId>test-parent</artifactId>
-		<version>Sprint_15-SNAPSHOT</version>
+		<version>Sprint_14.0</version>
 	</parent>
 	<groupId>test.modules</groupId>
 	<artifactId>app</artifactId>
