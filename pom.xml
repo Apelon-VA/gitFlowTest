@@ -60,7 +60,6 @@
 					<pushReleases>true</pushReleases>
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 					<scmCommentPrefix>[jgitflow-plugin]</scmCommentPrefix>
-					<enableSshAgent>true</enableSshAgent>
 					<flowInitContext>
 						<masterBranchName>master</masterBranchName>
 						<developBranchName>develop</developBranchName>
